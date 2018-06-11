@@ -1,8 +1,10 @@
 # bee_variance
 Exploring questions raised by bees and zero: DOI: 10.1126/science.aar4975
 
-"Could bees do what they do in this paper without counting?" 
-> Yes, I think they could show the same behavior without any counting, or understanding of "greater-than", "less-than", or zero.
+FAQ:
+
+Q. "Could bees do what they do in this paper without counting?" 
+> A. Yes, I think they could show the same behavior without any counting, or understanding of "greater-than", "less-than", or zero.
 
 # Requirements:
 
