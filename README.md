@@ -9,25 +9,12 @@ Exploring questions raised by bees and zero: DOI: 10.1126/science.aar4975
 - [Octave-image toolkit](https://octave.sourceforge.io/image/)
 - [convert](https://imagemagick.org/script/convert.php) from Imagemagick
 
-# Extract images from PDF file and equalize scale:
-## bash shell:
+# Howto:
 
-```{bash} 
-pdfimages -j $HOME/aar4975_Howard_SM.pdf $HOME/imgdir/bees
-cd imgdir
-mkdir targets
-for i in $(seq -w 13 4 396 );
-	do mv bees-$i targets/;
-	done
-mv bees-010.jpg targets/
-cd targets
-for i in bees*jpg;
-	do convert -resize 113x113\! $i rescaled$i;
-	done # make all 113x113, the most common size
-```
+Download the data PDF from the link above, run the bash script on it, then run the Octave script.
+If all is well, it should reproduce this graph:
 
-# Calculate and plot variance and object number in the targets:
-
+![beegraph.png]
 
 # Discussion:
 
