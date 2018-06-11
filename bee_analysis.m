@@ -33,10 +33,6 @@ plot(objs(1),rr(1),'ks;blank;',objs(2:33),rr(2:33),'rd;Diamonds;',objs(34:65),rr
 ggcf=get(gcf,'children');
 set(ggcf(1),'location','northwest');
 gra=get(gca,'children');
-set(gra(2),'markerfacecolor',[.1 .8 .1])
-set(gra(3),'markerfacecolor',[.5 0 0])
-set(gra(4),'markerfacecolor',[.2 .2 .2])
-set(gra(1),'markerfacecolor',[.4 .4 1])
 for l=1:4;set(gra,'markersize',12);end
 xlabel("# of objects")
 ylabel("simple variance")
