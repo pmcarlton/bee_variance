@@ -14,7 +14,7 @@ Exploring questions raised by bees and zero: DOI: 10.1126/science.aar4975
 Download the data PDF from the link above, run the bash script on it, then run the Octave script.
 If all is well, it should reproduce this graph:
 
-![beegraph.png]
+[beegraph](beegraph.png)
 
 # Discussion:
 
