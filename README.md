@@ -14,15 +14,15 @@ Q. "Could bees do what they do in this paper without counting?"
 - [Octave-image toolkit](https://octave.sourceforge.io/image/)
 - [convert](https://imagemagick.org/script/convert.php) from Imagemagick
 
-# Howto:
+# Result:
 
 Download the data PDF from the link above, run the bash script on it, then run the Octave script.
-If all is well, it should reproduce this graph:
+If all is well, it should reproduce the below graph.
+
+### Since the __variance__ of the test images correlates so well with the __number of objects__ on them, we cannot say which quantity the bees are responding to. In other words, these experiments do _not_ show that bees have a sense of numerosity.
 
 ![beegraph](beegraph.png)
 
-# Conclusion: 
-Since the __variance__ of the test images correlates so well with the __number of objects__ on them, we cannot say which quantity the bees respond to without further tests. In other words, these experiments do _not_ show that bees have a sense of numerosity.
 
 # Discussion:
 
