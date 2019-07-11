@@ -21,6 +21,9 @@ If all is well, it should reproduce this graph:
 
 ![beegraph](beegraph.png)
 
+# Conclusion: 
+Since the __variance__ of the test images correlates so well with the __number of objects__ on them, we cannot say which quantity the bees respond to without further tests. In other words, these experiments do _not_ show that bees have a sense of numerosity.
+
 # Discussion:
 
 My motivations for exploring this are: first, the  feeling that I was seeing some equivocation in the first few sentences of the paper—in my opinion the authors overreach in grouping a diverse range of concepts and behaviors into a narrow spectrum they call "Understanding of Zero". Second, going by the perspective explained in e.g. Stephen Budiansky's "If a Lion Could Talk" (that of positing the simplest cognitive mechanisms consistent with the data), it seemed like the behavior displayed by the bees could be explained by simpler mechanisms than actual counting. After reading the paper, my impression was not only that bees probably did not understand the concept of numeric zero, but the entire counting paradigm put forward by these researchers might not be the best way of explaining what's going on.
